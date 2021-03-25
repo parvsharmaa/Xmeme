@@ -1,0 +1,96 @@
+.button {
+  padding: 10px 20px;
+  font-size: 19px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #446eb8;
+  border: none;
+  border-radius: 15px;
+  width: 180px;
+  height: 50px;
+  text-align: center;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+}
+
+.button1{
+  float: right;
+  font-family: monospace;
+  padding: 5px 5px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3e8e41;
+  border: none;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+}
+
+
+* {
+   box-sizing: border-box;
+}
+@media (min-width: 768px){
+.container{
+    width: 100%;
+    background: #f2f2f2;
+    align: center;
+    margin: auto;
+}
+}
+.gallery{
+    margin: 8px;
+    background-color: #f6f6ee;
+    border: 1px solid #ccc;
+    float: left;
+    overflow: auto;
+    width:auto;
+}
+
+.name{
+    text-align: left;
+    padding: 10px 20px 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    background: #fff
+}
+
+
+.gallery img{
+ height:250px;
+ width: 250px;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #33331a;
+    font-weight: bold;
+    font-size: 15px;
+    width: 250px;
+    height: auto;
+    border:1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
