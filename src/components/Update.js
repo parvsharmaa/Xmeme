@@ -14,7 +14,7 @@ export class Update extends Component{
         name: '',
         caption: '',
         url: '',
-        apiurl: 'https://gentle-escarpment-65011.herokuapp.com/memes/'
+        apiurl: 'https://xmeme-backend-parvsharma.herokuapp.com/memes/'
         }
     }
 //
