@@ -16,7 +16,7 @@ class PostList extends Component {
     }
 
     componentDidMount() {
-        axios.get('https://gentle-escarpment-65011.herokuapp.com/memes/')
+        axios.get('https://xmeme-backend-parvsharma.herokuapp.com/memes/')
         .then(response => {
             console.log(response)
             this.setState({posts: response.data})
